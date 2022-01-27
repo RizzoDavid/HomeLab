@@ -6,6 +6,20 @@ Here is my documentation for my homelab. I am still updating the document. Here 
 - The services running of each device
 - List of hardware and software
 
+## Hardware
+- Unifi Security Gateway
+- 16 Port Managed Switch
+- 2 Unifi Access Points
+- Dell Precision T7600
+  - 8 Core Intel Xeon
+  - 40 GB Ram
+  - 20 GB SSD
+  - 250 GB SSD
+  - 2 TB HDD
+  - 1 TB HDD
+  - 1 TB HDD
+  - Dual Nic
+
 
 ## Services Running
 These are the services that I ma currently running. 
