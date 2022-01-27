@@ -3,8 +3,8 @@ Here is my documentation for my homelab. I am still updating the document. Here 
 
 - Diagram of Network Topology
 - Descripition of each device
-- The services running of each device
-- List of hardware and software
+- The services running
+- List of hardware
 
 ## Hardware
 - Unifi Security Gateway
@@ -22,7 +22,7 @@ Here is my documentation for my homelab. I am still updating the document. Here 
 
 
 ## Services Running
-These are the services that I ma currently running. 
+These are the services that I am currently running. 
 
 - VMWare ESXI
   - Ubuntu Server
@@ -34,6 +34,7 @@ These are the services that I ma currently running.
     - Active Directory
     - DNS
     - File and Storage Services
+    - Plex
   - TrueNas
   - Kemp Load Balancer
     - 3 Load Balanced Ubuntu VMs running Docker
