@@ -62,7 +62,7 @@ Here is my documentation for my homelab. I am still updating the document. Here 
     - N/A
   - Firewall
     - No Outbound or Inbound Access
-    - Renders port unuseable 
+    - Device Isolation
   
 
 ## Hardware
