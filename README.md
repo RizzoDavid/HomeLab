@@ -78,26 +78,54 @@ Here is my documentation for my homelab. I am still updating the document. Here 
   - 1 TB HDD
   - 1 TB HDD
   - Dual Nic
+  - NVIDIA Quadro K4000
+- Custom PC/Server
+  - AMD Ryzen 7
+    - 8 Core
+  - 32 GB Ram
+  - 500 GB NVME
+  - 500 GB SSD
+  - 500 GB SSD
+  - 2 TB HDD
+  - RX 580 
 
 
 ## Services Running
 These are the services that I am currently running. 
 
 - VMWare ESXI
-  - Ubuntu Server
+- Windows Serer 2022
+  - Active Directory
+  - DHCP
+  - DNS
+  - Web Server (IIS)
+  - Windows Update Services
+  - Windows Deployment Services
+
+
+## Set Up Notes
+
+Potential Services That I want to install
+- Windows Server 2022
+  - Active Directory
+  - DHCP
+  - DNS
+  - Active Directory Federation Service 
+  - Network Policy Server
+  - Plex
+  - Hyper-V Server
+  - Web Server (IIS)
+  - Windows Server Update Services
+  - Remote Desktop Services
+  - Windows Deployment Services
+- VMWARE ESXi
+  - Ubuntu 
     - Docker
-    - Portainer
-    - VS Code Server
-    - Traefik Reverse Proxy
-  - Windows Server 2022
-    - Active Directory
-    - DNS
-    - File and Storage Services
-    - Plex
+      - Traefik Reverse Proxy
+      - Visual Studio Code Server
+      - Portainer
+      - Uptime Kuma
+  - Ubuntu 
+    - Grafana Loki
   - TrueNas
-  - Kemp Load Balancer
-    - 3 Load Balanced Ubuntu VMs running Docker
-    - Ubuntu VM Running Ansible
-  - Windows 10 VM
-  - Ubuntu VM 
-    - Docker for Penetration Testing
+  - 
