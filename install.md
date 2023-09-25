@@ -7,4 +7,6 @@ I already have ESXI as a Hypervisor and then Winodws Server installed on another
 </ul>
 
 After Installing Ubuntu and enabling ssh from my main computers with SSH keys, I ran updates with the following command.
+    ```
     sudo apt update && sudo apt upgrade -y
+    ```
