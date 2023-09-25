@@ -1,4 +1,4 @@
-#ESXI
+# ESXI
     - [ ] Wiregaurd VPN
     - [ ] Docker
       - [ ] Cloud Flare Tunnel
@@ -11,7 +11,7 @@
     - [ ]  
 
 
-#Windows Server 
+# Windows Server 
     - [x] Plex
     - [ ] Windows IIS
     - [ ] Hyper V
