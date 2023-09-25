@@ -94,9 +94,14 @@ Here is my documentation for my homelab. I am still updating the document. Here 
 These are the services that I am currently running. 
 
 - VMWare ESXI
+  - Traefik
+  - Portainer
+  - VS Code Server
+  - Uptime Kuma
+  - TrueNas
+  - 
 - Windows Serer 2022
   - Active Directory
-  - DHCP
   - DNS
   - Web Server (IIS)
   - Windows Update Services
@@ -128,4 +133,6 @@ Potential Services That I want to install
   - Ubuntu 
     - Grafana Loki
   - TrueNas
-  - 
+
+
+  
