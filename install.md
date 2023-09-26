@@ -26,10 +26,10 @@ I need to create a ssh key for the ansible machine to ssh into the other devices
 # Docker VMWare
 I am installing docker on Red Hat Enterprise 9 without a gui. I have configured a root password and a secondary administror user so that the root account is not being used. 
 
-    ```
+    
     4 vCPUs
     8 GB Ram
     40 GB Hard Disk
-    ```
     
+
 After the operating system is installed, I will then set up ssh using the key created on the ansible system. This will only allow ssh into the system via the ansible machine.  
