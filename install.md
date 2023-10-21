@@ -23,6 +23,8 @@ There was an error with the path mapping and I had to run this command to fix it
     ```
 I need to create a ssh key for the ansible machine to ssh into the other devices. After than I need to setup the other VMs before I can configure ansible the rest of the way. 
 
+I had to create an asnible configuration file, invetory file, and sudo password file. This allows me to run sudo applications from ansible. 
+
 # Docker VMWare
 I am installing docker on Red Hat Enterprise 9 without a gui. I have configured a root password and a secondary administror user so that the root account is not being used. 
 
@@ -33,3 +35,13 @@ I am installing docker on Red Hat Enterprise 9 without a gui. I have configured 
 </ul>
 
 After the operating system is installed, I will then set up ssh using the key created on the ansible system. This will only allow ssh into the system via the ansible machine.  
+
+## CloudFlare Tunnel
+
+CLoud flare tunnel was installed on docker. I intially thought there was a problem with docker but there was a problem with tls verify due to self signed certificated on some of the servers as well as some configuration in cloudlfare tunnel was wrong. 
+
+    ```
+    docker run -d cloudflare/cloudflared:latest tunnel --no-autoupdate run --token ***INSERT TOKEN***
+    ```
+
+The -d was important because it runs as a daemon in the background. 
