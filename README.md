@@ -10,31 +10,20 @@ Here is my documentation for my homelab. I am still updating the document. Here 
 - LAN
   - No VLAN
   - DNS
-    - Google DNS for Speed
-      - 8.8.8.8
-      - 8.8.4.4
+    - Quad9 for Privacy
+      - 9.9.9.9
+      - 149.112.112.112
   - IP Range
     - 10.1.0.1/24
   - Firewall
     - Allow Lan to Kids
     - Allow Lan to Lab
-- Kids
-  - Vlan 30
-  - DNS
-    - OpenDNS for content filtering
-      - 208.67.222.222
-      - 208.67.220.220
-  - IP Range
-    - 10.3.0.1/24
-  - Firewall
-    - Block Kids to Lab
-    - Block Kids to Lan
 - IoT
   - Vlan 20
   - DNS
-    - Google DNS For Speed
-      - 8.8.8.8
-      - 8.8.4.4
+    - Quad9 for Privacy
+      - 9.9.9.9
+      - 149.112.112.112
   - IP Range
     - 10.2.0.1/24
   - Firewall
@@ -69,70 +58,83 @@ Here is my documentation for my homelab. I am still updating the document. Here 
 - Unifi Security Gateway
 - 16 Port Managed Switch
 - 2 Unifi Access Points
-- Dell Precision T7600
+- Dell Precision T7600 (Harry)
   - 8 Core Intel Xeon
-  - 40 GB Ram
-  - 20 GB SSD
-  - 250 GB SSD
-  - 2 TB HDD
-  - 1 TB HDD
-  - 1 TB HDD
+  - 48 GB Ram
+  - 500 GB SSD (sda)
+  - 2 TB HDD (sdb)
+  - 2 TB HDD (sdc)
+  - 500 GB SSD(sdd)
+  - 500 GB SSD (sde)
   - Dual Nic
   - NVIDIA Quadro K4000
-- Custom PC/Server
+- Custom PC/Server (Ron)
   - AMD Ryzen 7
     - 8 Core
   - 32 GB Ram
   - 500 GB NVME
-  - 500 GB SSD
-  - 500 GB SSD
-  - 2 TB HDD
+  - 250 GB SSD
+  - 1 TB HDD
+  - 4 TB HDD
   - RX 580 
 
 
-## Services Running
+## Virtual Machines Running
 These are the services that I am currently running. 
 
-- VMWare ESXI
-  - Traefik
-  - Portainer
-  - VS Code Server
-  - Uptime Kuma
-  - TrueNas
-  - 
-- Windows Serer 2022
-  - Active Directory
-  - DNS
-  - Web Server (IIS)
-  - Windows Update Services
-  - Windows Deployment Services
-
-
-## Set Up Notes
-
-Potential Services That I want to install
-- Windows Server 2022
-  - Active Directory
-  - DHCP
-  - DNS
-  - Active Directory Federation Service 
-  - Network Policy Server
-  - Plex
-  - Hyper-V Server
-  - Web Server (IIS)
-  - Windows Server Update Services
-  - Remote Desktop Services
-  - Windows Deployment Services
-- VMWARE ESXi
-  - Ubuntu 
-    - Docker
-      - Traefik Reverse Proxy
-      - Visual Studio Code Server
-      - Portainer
-      - Uptime Kuma
-  - Ubuntu 
-    - Grafana Loki
-  - TrueNas
-
+- XCP-NG (Harry)
+  - Truenas
+    - 8 GB Ram
+    - 2 Cores
+    - SSD Pool
+      - sdd
+      - sde
+    - HDD Pool
+      - sdb
+      - sdc
+    - Boot Disk
+      - 20 GB
+  - Home Assistant
+  - Jellyfin
+    - GPU
+  - Lupin
+    - 2 Cores
+    - 4 GB Ram
+    - 25 GB Boot
+  - Potter
+    - 4 Cores
+    - 8 GB Ram
+    - 25 GB Boot
+  - Xen Orchestra
+- XCP-NG (Ron)
+  - Brother
+    - 1 Core
+    - 2 GB Ram
+    - 20 GB Boot
+  - Granger
+    - 4 Cores
+    - 8 GB Ram
+    - 25 GB Boot
+  - McGonagall
+    - 2 Cores
+    - 4 GB Ram
+    - 25 GB Boot
+  - Snape
+    - 2 Cores
+    - 4 GB Ram
+    - 25 GB Boot
+- Oracle
+  - Dumbledore (Arm)
+    - 1 Core
+    - 6 GB Ram
+    - 50 GB Boot Disk
+  - Hermione (Arm)
+    - 2 Cores
+    - 12 GB Ram
+    - 100 GB Boot Disk
+  - Sirius Black (Arm)
+    - 1 Core
+    - 6 GB Ram
+    - 50 GB Boot Disk
 
   
