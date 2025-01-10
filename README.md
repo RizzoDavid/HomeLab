@@ -95,8 +95,14 @@ These are the services that I am currently running.
     - Boot Disk
       - 20 GB
   - Home Assistant
+    - 2 Cores
+    - 2 GB Ram
+    - 32 GB Boot
   - Jellyfin
-    - GPU
+    - 4 Cores
+    - 8 GB Ram
+    - 25 GB Boot
+    - NVIDIA Quadro K4000
   - Lupin
     - 2 Cores
     - 4 GB Ram
