@@ -1,0 +1,1 @@
+Changed layout. Docker swarm is hosted in oracle cloud. Need to attach block storage to each vm and create load balancers. Run K3S locally with kubevip or metallb and ha proxy.
